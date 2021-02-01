@@ -1,0 +1,33 @@
+{% extends 'mysite/nav_bar.html' %}
+{% load static %}
+
+{% block body %}
+<div class = 'contain' >
+    <div class = 'left_section'>
+        <p class='display-2'>Personal Website</p>
+        <img src={% static "images/projects/mysite_pic.jpg"%} style="width:650px">
+    </div>
+    <div class = 'left_section' style='float:right'>
+       <p  class = 'display-4 desc_header'>Version 1</p>
+       <p class = 'para_body'>I began work on this site in January 2021. It was my first ever full site build and I wanted to build a portfolia to showcase my skills. I learnedhow to integrate HTML and CSS. The files I wrote later on are much cleaner and were quicker to write once I figured out how to structure the CSS.</p>
+       <div class='github_link'>
+            <img  id="social" src={% static "images/main_page/github_logo.png" %}>
+            <a class='link_top' href= 'https://github.com/sbhuller98/sukh_site_v1' target="_blank"> sukh_site_v1</a>
+        </div>
+    </div>
+</div>
+<div class = 'contain' style='background-color:rgb(243, 243, 243)'>
+    <div class = 'left_section' style='float:right'>
+         <p class='display-2'>Fitness Facility</p>
+       <img src={% static "images/projects/fitness_facility.jpg"%} style="width:650px">
+    </div>
+    <div class = 'left_section'>
+        <p  class = 'display-4 desc_header'>A Team Build</p>
+       <p class = 'para_body'>This project was started and completed in spring 2020. This Java application uses libraries such as JavaFX and JDBC. The database is built with mySQL. This project was built by me and David Ewert, a fellow UBC student. This was my first experience working with databases.</p>
+       <div class='github_link'>
+            <img  id="social" src={% static "images/main_page/github_logo.png" %}>
+            <a class='link_top' href= 'https://github.com/sbhuller98/FitnessFacility' target="_blank">Fitness Facility</a>
+        </div>
+    </div>
+</div>
+{% endblock %}

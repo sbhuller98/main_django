@@ -1,0 +1,46 @@
+{% extends 'mysite/nav_bar.html' %}
+{% load static %}
+
+
+{% block body %}
+    
+    <div id='main'>
+        <img class="header" src={% static "images/main_page/home_main.png" %}>
+        <h3 id='name'>I am Sukhman Bhuller</h3>
+    </div>
+    <div class='body-left'>
+        <h1 class='display-4'>A bit about me.</h1>
+        <h5 id='para'>Hey! Firstly, thanks for visiting my site. I am in my final year at UBC and working to improve my skills in both front end and backend web design. The goal of this site is to showcase my current programming skills and introduce myself. I’m hoping to pursue a career in programming or software engineering. My current goals include improving this website to make it mobile friendly and working on problems to improve my algorithmic design.</h5>
+    </div>
+    <div class='body-right'>
+        <h1 class='display-4'>Contact Information </h1>
+        <div id='top_social'>
+            <a href= 'https://github.com/sbhuller98' target="_blank">
+                <img  id="social" src={% static "images/main_page/github_logo.png" %}>
+            </a>
+            <a class='link_top' href= 'https://github.com/sbhuller98' target="_blank"> sbhuller98 </a>
+        </div>
+        <div class='bottom_social'>
+            <a href= 'https://www.linkedin.com/in/sukhman-bhuller' target="_blank">
+                <img  id="linkedin" src={% static "images/main_page/linkedin_logo.png" %}>
+            </a>
+            <a class='link_top' href= 'https://www.linkedin.com/in/sukhman-bhuller' target="_blank"> Sukhman Bhuller </a>
+        </div>
+        <div class='under_social'>
+            <a href= "mailto:sukhmanbhuller12@gmail.com?">
+                <img  id="mail" src={% static "images/main_page/mail_logo.png" %}>
+                <a class='link_top'>sukhmanbhuller12@gmail.com</a>
+            </a>
+        </div>
+        <div class='least_social'>
+            <a href= "https://www.google.ca/maps/place/Vancouver,+BC/@49.2578263,-123.1939434,12z/data=!3m1!4b1!4m5!3m4!1s0x548673f143a94fb3:0xbb9196ea9b81f38b!8m2!3d49.2827291!4d-123.1207375" target="_blank">
+                <img  id="map" src={% static "images/main_page/map_logo.png" %}>
+                <a class='link_top' href= "https://www.google.ca/maps/place/Vancouver,+BC/@49.2578263,-123.1939434,12z/data=!3m1!4b1!4m5!3m4!1s0x548673f143a94fb3:0xbb9196ea9b81f38b!8m2!3d49.2827291!4d-123.1207375" target="_blank">Vancouver, BC</a>
+            </a>
+        </div>
+    </div>
+
+{% endblock %}
+
+
+

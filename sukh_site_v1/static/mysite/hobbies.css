@@ -1,0 +1,155 @@
+/*Class at the top */
+
+.holder {
+    width: 1400 px;
+    height: auto;
+    position: relative;
+    float: none;
+    margin-top: 40px;
+    
+}
+
+
+.sectional_pic {
+    width: 550 px;
+    height: auto;
+    margin:50px;
+    float: left;
+    position: absolute;
+    top: auto;
+}
+
+.image {
+    width: 325px;
+    height: auto;
+    margin: 2px;
+}
+
+.sectional_text {
+    width: 550 px;
+    height: auto;
+    margin:50px;
+    float: right;
+    position: relative;
+    top: auto;
+}
+
+
+.para_body {
+   
+    text-align: middle;
+    margin-top: 30px;
+    margin-left: 35px;
+    font-size: 27px;
+    width: 550px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.column {
+    float: right;
+    width: 24%;
+    padding: 10px;
+  }
+  
+  .column img {
+    margin-top: 12px;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/*Id's here */
+
+#holder_2 {
+    background-color: rgb(243,243,243);
+    overflow: auto;
+    height: 922px;
+}
+
+#holder_1 {
+    background-color: rgb(213, 223, 227);
+    overflow: auto;
+}
+#holder_3 {
+    background-color: rgb(213, 223, 227);
+    overflow: auto;
+    height: 760px;
+}
+#holder_4 {
+    background-color: rgb(243,243,243);
+    overflow: auto;
+    height: auto;
+}
+
+#list1 {
+    position: absolute;
+    top: 665px;
+    font-size:large;
+    width: 1400px;
+}
+#list2 {
+    font-size:x-large;
+    width: 400px;
+    height: 500px;
+    display: inline-block;
+    margin: 5px;
+    margin-left: 22px;
+}
+
+#list3 {
+    font-size:x-large;
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    margin: 5px;
+}
+
+#baj_old {
+    width: auto;
+    height: 490px;
+}
+#baj_age_young {
+    position: absolute;
+    top: 580px;
+    left: 200px;
+    color: white;
+}
+#baj_age_old {
+    position: absolute;
+    top: 580px;
+   left: 340px;
+}
+#bike_gsxr {
+    width: 400px;
+    margin: 10px;
+}
+#bike_kawa {
+    width: 350px;
+    margin: 10px;
+}
+
+#img_ninja {
+    width: 30%;
+    margin: 10px;
+}
+#spotify {
+    position: absolute;
+    bottom: 100 px;
+    margin-left: 10px;
+}
+#title_block_4 {
+    margin: 50px;
+}
+
+
+
+/* Table editing */
+table.table-bordered > thead > tr > th{
+    border:3px solid rgb(152, 204, 204);
+}
+table.table-bordered > tbody > tr > td{
+    border:3px solid rgb(152, 204, 204);
+}
+

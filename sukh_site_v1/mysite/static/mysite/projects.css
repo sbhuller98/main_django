@@ -1,0 +1,29 @@
+.contain {
+    height: 600px;
+    width: 1400px; 
+    margin-top: 40px;
+}
+
+
+.left_section {
+    position: relative;
+    float: left;
+    width: 650px;
+    height: 550px;
+    margin: 25px;
+}
+
+.desc_header {
+    position: relative;
+}
+.github_link{
+    position: relative;
+    left: 30px;
+    width: 350px;
+}
+
+.learn_button {
+    position: relative;
+    margin:30px;
+    
+}
