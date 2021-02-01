@@ -19,6 +19,6 @@ RUN pip install -r requirements.txt --cache-dir /opt/mysite/pip_cache
 RUN chown -R www-data:www-data /opt/mysite
 
 # start server
-EXPOSE 8020
+EXPOSE 8080
 STOPSIGNAL SIGTERM
 CMD ["/opt/mysite/start-server.sh"]

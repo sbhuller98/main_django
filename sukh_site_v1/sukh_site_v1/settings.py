@@ -25,7 +25,7 @@ SECRET_KEY = 'a%15g=js$_rz49z*xskv&!wb(14$mjdk%=fvva913u*hxpq&zm'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['0.0.0.0', 'maindjango-zksx6nyxnq-uw.a.run.app']
 
 
 # Application definition
