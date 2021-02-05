@@ -28,6 +28,9 @@ Sukhman Bhuller  (sukhmabhuller12@gmail.com)
 
 ## Version History
 
+* 1.1
+    * Added calculator item to projects page
+    * Added calculator page 
 * 1.0
     * Update README.md
     * compressed large images
