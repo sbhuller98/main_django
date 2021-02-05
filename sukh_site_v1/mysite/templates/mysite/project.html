@@ -30,5 +30,23 @@
         </div>
     </div>
 </div>
+<div class = 'contain' >
+    <div class = 'left_section'>
+        <p class='display-2'>Basic Calculator</p>
+        <img src={% static "images/projects/basic_calc.jpg"%} style="width:650px">
+    </div>
+    <div class = 'left_section' style='float:right'>
+       <p  class = 'display-4 desc_header'>Mini-Project</p>
+       <p class = 'para_body'>I went to the library to do homework and forgot my calculator. Luckily, I was only doing some basic calculations so I wasn't too worried. I started using the calculator built into my computer and was curious how it was implemented. This led me to try to build a basic calculator in Javascript. I hope to add scientific calculator features in the future.</p>
+       <div class='github_link'>
+            <img  id="social" src={% static "images/main_page/github_logo.png" %}>
+            <a class='link_top' href= 'https://github.com/sbhuller98/calculator_app' target="_blank"> Calculator App</a>
+            <form method="GET" action="{% url 'calculator' %}">
+                <button class="btn btn-primary learn_button btn-lg" type="submit">Try Me!</button>
+            </form>
+        </div>
+    </div>
+</div>
+
 {% endblock %}
 

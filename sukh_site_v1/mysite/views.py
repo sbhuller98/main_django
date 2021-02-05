@@ -10,3 +10,6 @@ def hobbies(request):
 
 def projects(request):
     return render(request, "mysite/project.html")
+
+def calculator(request):
+    return render(request, "mysite/calculator.html")

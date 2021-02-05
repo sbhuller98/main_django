@@ -1,0 +1,42 @@
+
+     .arithmetic_numbers {
+        width: 80px;
+        height: 50px;
+        margin: 5px;
+        position: relative;
+        border-width: 4px;
+        border-color: black;
+        text-align: center;
+        margin: 4px;
+     }   
+     
+     .function_buttons {
+        width: 123px;
+        margin: 11px;
+        height: 62px;
+        text-align: center;
+        border-width: 2px;
+        border-color: black;
+     }  
+      #main_calc_div
+    {
+        height: 600px;
+        width: 1400px; 
+        margin-top: 100px;
+        position: relative;
+        margin-left: 500px;
+        
+        
+    }
+    #screen {
+        background-color: #343a40;
+        width: 418px;
+        border-width: 5px;
+        border-color: black;
+        text-align: right;
+        border-style: double;
+    }
+    #screen_text {
+        color: white;
+        margin-right: 10px;
+    }
