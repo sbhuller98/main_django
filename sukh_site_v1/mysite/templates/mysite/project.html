@@ -1,52 +1,224 @@
-{% extends 'mysite/nav_bar.html' %}
-{% load static %}
+{% extends 'mysite/nav_bar.html' %} {% load static %} {% block body %}
+<div id="project-top" class="container mb-5">
+  <div class="row">
+    <div class="col">
+      <div class="card">
+        <img class="card-img-top" src={% static "images/projects/mysite_pic.jpg"%} alt="" />
+        <div class="card-body">
+          <h4 class="card-title display-4 mt-3">Personal Website</h4>
+          <div class="d-flex git-project">
+            <div class="p-2 align-self-start">
+              <i class="fab fa-github fa-2x"></i>
+            </div>
+            <div class="p-2 align-self-end">
+              <a
+                id="project-link"
+                href="https://github.com/sbhuller98/main_django"
+                >sbhuller98/main_django</a
+              >
+            </div>
+          </div>
 
-{% block body %}
-<div class = 'contain' >
-    <div class = 'left_section'>
-        <p class='display-2'>Personal Website</p>
-        <img src={% static "images/projects/mysite_pic.jpg"%} style="width:650px">
-    </div>
-    <div class = 'left_section' style='float:right'>
-       <p  class = 'display-4 desc_header'>Version 1</p>
-       <p class = 'para_body'>I starting working on this site in January 2021. It was my first ever full site build and I wanted to build a portfolio to showcase my skills. I learned how to integrate HTML and CSS. The files I wrote later on are much cleaner and were quicker to write once I figured out how to structure the CSS.</p>
-       <div class='github_link'>
-            <img  id="social" src={% static "images/main_page/github_logo.png" %}>
-            <a class='link_top' href= 'https://github.com/sbhuller98/main_django' target="_blank"> My Personal Site</a>
+          <p class="card-text lead mt-3">
+            I starting working on this site in January 2021. It was my first
+            ever full site build and I wanted to build a portfolio to showcase
+            my skills. Version 2 is fully responsive and mobile friendly. The
+            picture above is from Version 1.
+          </p>
+          <a
+            class="btn btn-primary btn-block"
+            data-toggle="collapse"
+            data-target="#collapse-1"
+            >Read More</a
+          >
+
+          <div class="collapse mb-3" id="collapse-1">
+            <div class="card">
+              <div class="card-body">
+                <strong>Languages/technologies used:</strong> Django, CSS, HTML,
+                JavaScript, Bootstrap
+                <hr />
+                <strong>What I Learned:</strong>
+                <ul>
+                  <li>
+                    How to dockerize and deploy a containerized application to
+                    Google Cloud
+                  </li>
+                  <li>
+                    Styling and templating webpages while maintaing good coding
+                    practices
+                  </li>
+                  <li>
+                    Integrating libraries such as BootStrap and FontAwesome and
+                    using them to create responsive pages
+                  </li>
+                  <li>
+                    Using Git control to keep repository updated and referencing
+                    it as needed.
+                  </li>
+                  <li>
+                    Setting up and registering a domain and using a scheduler to
+                    keep application instance running on Google Cloud.
+                  </li>
+                </ul>
+                <hr />
+                <strong>What I can improve on:</strong>
+                <ul>
+                  <li>
+                    Decreasing code repitition, I can leverage Django and a SQL
+                    database to decrease hard coded text
+                  </li>
+                  <li>
+                    Optimize images, website can be slow to load some of the
+                    larger images
+                  </li>
+                  <li>Better documentation</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
 </div>
-<div class = 'contain' style='background-color:rgb(243, 243, 243)'>
-    <div class = 'left_section' style='float:right'>
-         <p class='display-2'>Fitness Facility</p>
-       <img src={% static "images/projects/fitness_facility.jpg"%} style="width:650px">
-    </div>
-    <div class = 'left_section'>
-        <p  class = 'display-4 desc_header'>A Team Build</p>
-       <p class = 'para_body'>This project was started and completed in Spring 2020. This Java application uses libraries such as JavaFX and JDBC. The database is built with mySQL. This project was built by me and David Ewert, a fellow UBC student. This was my first experience working with databases.</p>
-       <div class='github_link'>
-            <img  id="social" src={% static "images/main_page/github_logo.png" %}>
-            <a class='link_top' href= 'https://github.com/sbhuller98/FitnessFacility' target="_blank">Fitness Facility</a>
+
+<div class="container mb-5">
+  <div class="row">
+    <div class="col">
+      <div class="card">
+        <img class="card-img-top" src={% static "images/projects/fitness_facility.jpg"%} alt="" />
+        <div class="card-body">
+          <h4 class="card-title display-4 mt-3">Fitness Facility</h4>
+          <div class="d-flex git-project">
+            <div class="p-2 align-self-start">
+              <i class="fab fa-github fa-2x"></i>
+            </div>
+            <div class="p-2 align-self-end">
+              <a
+                id="project-link"
+                href="https://github.com/sbhuller98/FitnessFacility"
+                >sbhuller98/FitnessFacility</a
+              >
+            </div>
+          </div>
+          <p class="card-text lead mt-3">
+            This project was started and completed in Spring 2020. This Java
+            application uses libraries such as JavaFX and JDBC. The database is
+            built with mySQL. This project was built by me and David Ewert, a
+            fellow UBC student.
+          </p>
+          <a
+            class="btn btn-primary btn-block"
+            data-toggle="collapse"
+            data-target="#collapse-2"
+            >Read More</a
+          >
+
+          <div class="collapse mb-3" id="collapse-2">
+            <div class="card">
+              <div class="card-body">
+                <strong>Languages/technologies used:</strong> Java, JavaFX,
+                JDBC, mySQL
+                <hr />
+                <strong>What I Learned:</strong>
+                <ul>
+                  <li>
+                    Using object oriented philosophies to build an application
+                  </li>
+                  <li>Starting and using a mySQL database</li>
+                  <li>Using JDBC to update a database and make queries</li>
+                  <li>
+                    The importance of team work and communication, and dividing
+                    up work so that it matches individual skills
+                  </li>
+                  <li>
+                    Proper git control and documentation so our work does not
+                    conflict or break the project
+                  </li>
+                </ul>
+                <hr />
+                <strong>What I can improve on:</strong>
+                <ul>
+                  <li>Looking back, I'm not really a fan of the design</li>
+                  <li>
+                    Increasing usability based on needs a gym or fitnes
+                    organization would actually have
+                  </li>
+                  <li>
+                    Improved parsing and checking form data before submitting it
+                    for queries
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
 </div>
-<div class = 'contain' >
-    <div class = 'left_section'>
-        <p class='display-2'>Basic Calculator</p>
-        <img src={% static "images/projects/basic_calc.jpg"%} style="width:650px">
-    </div>
-    <div class = 'left_section' style='float:right'>
-       <p  class = 'display-4 desc_header'>Mini-Project</p>
-       <p class = 'para_body'>I went to the library to do homework and forgot my calculator. Luckily, I was only doing some basic calculations so I wasn't too worried. I started using the calculator built into my computer and was curious how it was implemented. This led me to try to build a basic calculator in Javascript. I hope to add scientific calculator features in the future.</p>
-       <div class='github_link'>
-            <img  id="social" src={% static "images/main_page/github_logo.png" %}>
-            <a class='link_top' href= 'https://github.com/sbhuller98/calculator_app' target="_blank"> Calculator App</a>
-            <form method="GET" action="{% url 'calculator' %}">
-                <button class="btn btn-primary learn_button btn-lg" type="submit">Try Me!</button>
-            </form>
+
+<div class="container mb-5">
+  <div class="row">
+    <div class="col">
+      <div class="card">
+        <img class="card-img-top" src={% static "images/projects/basic_calc.jpg"%} alt="" />
+        <div class="card-body">
+          <h4 class="card-title display-4 mt-3">Basic Calculator</h4>
+          <div class="d-flex git-project">
+            <div class="p-2 align-self-start">
+              <i class="fab fa-github fa-2x"></i>
+            </div>
+            <div class="p-2 align-self-end">
+              <a
+                id="project-link"
+                href="https://github.com/sbhuller98/calculator_app"
+                >sbhuller98/calculator_app</a
+              >
+            </div>
+          </div>
+          <p class="card-text lead mt-3">
+            A basic calculator app that helped me get familiar with JavaScript.
+          </p>
+          <a
+            class="btn btn-primary btn-block"
+            data-toggle="collapse"
+            data-target="#collapse-3"
+            >Read More</a
+          >
+
+          <div class="collapse mb-3" id="collapse-3">
+            <div class="card">
+              <div class="card-body">
+                <strong>Languages/technologies used:</strong> JavaScript, HTML,
+                CSS
+                <hr />
+                <strong>What I Learned:</strong>
+                <ul>
+                  <li>JavaScript Syntax</li>
+                  <li>Creating and using functions in JavaScript</li>
+                  <li>Using JDBC to update a database and make queries</li>
+                </ul>
+                <hr />
+                <strong>What I can improve on:</strong>
+                <ul>
+                  <li>
+                    Using math functions instead of relying on the eval function
+                  </li>
+                  <li>Calculator has no scientific capabilities</li>
+                  <li>
+                    Secuirty vulnerabilities/bugs since input strings are not
+                    checked properly
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
 </div>
 
 {% endblock %}
-

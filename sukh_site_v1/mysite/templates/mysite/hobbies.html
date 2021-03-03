@@ -1,174 +1,80 @@
-{% extends 'mysite/nav_bar.html' %}
-{% load static %}
-
-
-{% block body %}
-<div class = 'holder' id='holder_1'>
-    <div class = 'sectional_text'>
-        <p class='display-2'>Meet Baj</p>
-        <img class = 'image' src={% static "images/hobbies/baj_second.jpg"%}>
-        <img id = 'baj_old' class = 'image' src={% static "images/hobbies/baj_older.jpg"%}>
-        <h3 id ='baj_age_young'>4 months</h3>
-        <h3 id='baj_age_old'>11 months</h3>
+{% extends 'mysite/nav_bar.html' %} {% load static %} {% block body %}
+<div id="project-top" class="container mb-5">
+  <div class="row">
+    <div class="col-md-4 text-white">
+      <p class="display-4">The best pandemic puppy</p>
+      <p class="lead">
+        Baj is a German and King Sheperd cross. He's getting close to a year old
+        now, so his days as a puppy are limited. He has been a great addition to
+        the family. He gets about 2 hours of walks everyday, and in turn keeps
+        all of us active. I'm excited to take him along on my hikes and trips
+        this summer.
+      </p>
     </div>
-    <div class = 'sectional_pic'>
-        <p class='display-4'>The best pandemic puppy</p>
-        <p class = 'para_body'>Baj is a German and King Sheperd cross. He's getting close to a year old now, so his days as a puppy are limited. He has been a great addition to the family. He gets about 2 hours of walks everyday, and in turn keeps all of us active. Even at home he's quite crazy and doesn't let you sit still for too long. I'm excited to take him along on my hikes and trips this summer. Baj isn't really a summer dog, his thick fur means he struggles to stay cool so we'll have to be vigilant and make sure he doesn't get sick during our adventures.</p>
+    <div class="col-md-4">
+      <img src={% static "images/hobbies/baj_second.jpg"%} style="width:100%">
     </div>
+    <div class="col-md-4">
+      <img src={% static "images/hobbies/baj_older.jpg"%} style="width:100%">
+    </div>
+  </div>
 </div>
-<div class = 'holder' id = 'holder_2'>
-    <div class = 'sectional_pic'>
-        <p class="display-2">Great Outdoors</p>
-        <div class="row"> 
-            <div class="column">
-                <img src={% static "images/hobbies/hiking_1.jpg"%} style="width:100%">
-                <img src={% static "images/hobbies/hiking_2.jpg"%} style="width:100%">
-            </div>
-            <div class="column">
-                <img src={% static "images/hobbies/hiking_3.jpg"%} style="width:100%">
-                <img src={% static "images/hobbies/hiking_4.jpg"%} style="width:100%">
+<div class="container">
+  <div class="row">
+    <div class="col-md-4 text-white">
+      <p class="display-4">Exploring what BC has to offer</p>
+      <p class="lead">
+        I've always enjoyed my hikes. They were a good way to stay fit and
+        reward yourself with a nice view. This year, it became almost a
+        passtime. With covid restrictions limiting what I could do and making it
+        a struggle to stay in shape, I decided to make hiking a weekly thing.
+        This summer I did a new hike almost every week and finshed the season by
+        climbing the beautiful Panorama Ridge in Garibaldi Provincial Park. The
+        pictures on the left are some of my favourite shots from the summer.
+      </p>
+    </div>
+    <div class="col-md-4">
+      <img src={% static "images/hobbies/hiking_1.jpg"%} style="width:100%">
+      <img src={% static "images/hobbies/hiking_2.jpg"%} style="width:100%">
+    </div>
+    <div class="col-md-4">
+      <img src={% static "images/hobbies/hiking_3.jpg"%} style="width:100%">
+      <img src={% static "images/hobbies/hiking_4.jpg"%} style="width:100%">
+    </div>
+  </div>
 
-            </div>  
-        </div>
-        </div>
-    <div class = 'sectional_text'>
-        <p class = 'display-4'>Exploring what BC has to offer</p>
-        <p id = 'hikes_desc' class = 'para_body'>I've always enjoyed my hikes. They were a good way to stay fit and reward yourself with a nice view. This year, it became almost a passtime. With covid restrictions limiting what I could do and making it a struggle to stay in shape, I decided to make hiking a weekly thing. This summer I did a new hike almost every week and finshed the season by climbing the beautiful Panorama Ridge in Garibaldi Provincial Park. The pictures on the left are some of my favourite shots from the summer.</p>
-    </div>
-    <div id = 'list1'>
-        <table class="table table-light table-striped table-bordered">
-            <thead>
-                <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">My Favourite Hikes</th>
-                    <th scope="col">Hikes for Beginners</th>
-                    <th scope="col">Hikes I Want to Try</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>Panorama Ridge-Garibaldi Provincial Park</td>
-                    <td>Abbotsford Grind-Abbotsford</td>
-                    <td>Golden Ears Trail-Golden Ears Provincial Park</td>
-                </tr>
-                <tr>
-                    <th scope="row">2</th>
-                    <td>Elk Mountain-Chilliwack</td>
-                    <td>High Knoll-Minnekhada Regional Park</td>
-                    <td>Lions Binkert Trail-Lions Bay</td>
-                </tr>
-                <tr>
-                    <th scope="row">3</th>
-                    <td>Abbotsford Grind-Abbotsford</td>
-                    <td>Deep Cove-North Vancouver</td>
-                    <td>Black Tusk-Garibaldi Provincial Park</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+  <div>
+    <table class="table table-dark table-striped">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">My Favourite Hikes</th>
+          <th scope="col">Hikes for Beginners</th>
+          <th scope="col">Hikes I Want to Try</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Panorama Ridge-Garibaldi Provincial Park</td>
+          <td>Abbotsford Grind-Abbotsford</td>
+          <td>Golden Ears Trail-Golden Ears Provincial Park</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Elk Mountain-Chilliwack</td>
+          <td>High Knoll-Minnekhada Regional Park</td>
+          <td>Lions Binkert Trail-Lions Bay</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Abbotsford Grind-Abbotsford</td>
+          <td>Deep Cove-North Vancouver</td>
+          <td>Black Tusk-Garibaldi Provincial Park</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 </div>
-<div class = 'holder' id='holder_3'>
-    <div  class = 'sectional_text'>
-        <p class='display-4'>A need for speed</p>
-        <p class = 'para_body'>I got my first bike when I was 18, as soon as I was old enough. After that, I never looked back. Motorcycles are a cheap way to enjoy the extreme performance provided by todays vehicles. Also, there's the added thrill of being on two wheels and exposed to the elements. My favourite bike was my black GSXR-600 (top left picture), I still regret selling it. That being said, as I've aged I've come to accept the dangers that come with riding and it will likely be something I enjoy only for the next couple of years.</p>
-    </div>
-    <div class = 'sectional_pic'>
-        <p class='display-2'>Motorcycles</p>
-        <div class='row'>
-            <div class='column'>
-                <img  src={% static "images/hobbies/bike_gsxr.jpg"%}  style="width:100%">
-                
-            </div>
-        
-        
-            <div class='column'>
-                <img  src={% static "images/hobbies/bike_kawa.jpg"%}  style="width:100%">
-            </div>
-        </div>
-        <div>
-            <img  id = 'img_ninja' src={% static "images/hobbies/bike_ninja.jpg" %}  >
-        </div>
-    </div>
-    
-</div>
-<div class = 'holder' id='holder_4'>
-
-    <p id = 'title_block_4' class = 'display-2'>What Keeps me Going</p>
-    
-    <div id = 'list2'>
-        <table class="table table-dark table-striped table-table-borderless">
-            <thead>
-                <tr>
-                    <th scope="col"></th>
-                    <th scope="col">My Favourite Movies</th>
-    
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>The Dark Knight</td>
-                </tr>
-                <tr>
-                    <th scope="row">2</th>
-                    <td>Godfather 2</td>
-                <tr>
-                    <th scope="row">3</th>
-                    <td>Godfather</td>
-                </tr>
-                <tr>
-                    <th scope="row">4</th>
-                    <td>District 9</td>
-                </tr>
-                <tr>
-                    <th scope="row">5</th>
-                    <td>Good Will Hunting</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-
-    <div id = 'list3'>
-        <table class="table table-dark table-striped table-table-borderless">
-            <thead>
-                <tr>
-                    <th scope="col"></th>
-                    <th scope="col">My Favourite Books</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>1984 by George Orwell</td>
-                </tr>
-                <tr>
-                    <th scope="row">2</th>
-                    <td>Animal Farm by George Orwell</td>
-                <tr>
-                    <th scope="row">3</th>
-                    <td>Lord of the Flies by William Golding</td>
-                </tr>
-                <tr>
-                    <th scope="row">4</th>
-                    <td>Brave New World by Aldous Huxley</td>
-                </tr>
-                <tr>
-                    <th scope="row">5</th>
-                    <td>Homage to Catalonia by George Orwell</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <iframe id = 'spotify' src="https://open.spotify.com/embed/playlist/0Qt6acwDHKTJfIxUk0FKKN" width="425" height="372" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-</div>
-    
-       
-        
-        
-        
-        
-   
-
 
 {% endblock %}
