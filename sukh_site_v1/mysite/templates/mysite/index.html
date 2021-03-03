@@ -3,33 +3,59 @@
  <!-- Full screen header -->
 <header id="home-main">
   <div class="home-inner container">
-    <div>
-      <div class="row align-items-center">
-        <div class="col-lg-4 d-lg-block">
-          <div class="card text-white bg-dark mb-3">
-            <div class="card-header">Welcome</div>
-            <div class="card-body">
-              <h5 class="card-title">
-                I am a UBC computer science undergrad looking for experience.
-              </h5>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div id="contact-card" class="card">
+        <div class="card-body text-white">
+            
+            <h5 class="card-title">Contact Information</h5>
+            <p>Feel free to contact me with any questions or concerns.</p>
+            <div class="row"></div>
+                
+                <div class="col d-sm-block">
+                    
+                    <div class="d-flex">
+                        <div class="p-3 align-self-start">
+                            <i class="fas fa-envelope fa-2x"></i>
+                        </div>
+                        <div class="p-3 align-self-end">
+                          <a href="mailto:sukhmanbhuller12@gmail.com">sukhmanbhuller12@gmail.com</a>
+                        </div>
+                    </div>
+        
+                    <div class="d-flex">
+                        <div class="p-3 align-self-start">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </div>
+                        <div class="p-3 align-self-end">
+                          <a href="https://www.linkedin.com/in/sukhman-bhuller">sukhmanbhuller</a>
+                        </div>
+                    </div>
+        
+                    <div class="d-flex">
+                        <div class="p-3 align-self-start">
+                            <i class="fab fa-github fa-2x"></i>
+                        </div>
+                        <div class="p-3 align-self-end">
+                          <a href="https://github.com/sbhuller98">sbhuller98</a>
+                        </div>
+                    </div>
+        
+        
+                </div>
+              </div>
     </div>
   </div>
 </header>
 
 
  <!-- Intro section for personal projects -->
-<section id="project-intro">
+<section class="project-intro">
   <div class="container">
     <div class="row">
       <div class="col text-center py-3">
         <h1 class="display-4">Personal Projects</h1>
         <p class="lead">
           Please check out some of the personal projects I have created to
-          demonstrate my proficiency in a variety of languages and technologies.
+          demonstrate my proficiency in a variety of languages and technologies.  A few of my favourites are highlighted below.
         </p>
         <a href="" class="btn btn-outline-primary">Take me to the projects!</a>
       </div>
@@ -38,10 +64,10 @@
 </section>
 
  <!-- Personal projects carousel-->
-<div class="container">
+<div class="container my-3">
   <div class="row">
     <div class="col-sm-10 m-auto">
-      <div id="slider4" class="carousel slide mb-5" data-ride="carousel">
+      <div id="slider4" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li class="active" data-target="#slider4" data-slide-to="0"></li>
           <li data-target="#slider4" data-slide-to="1"></li>
@@ -102,6 +128,94 @@
     </div>
   </div>
 </div>
+
+ <!-- Intro section for skills-->
+ <section class="project-intro">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center py-3">
+          <h1 class="display-4">Skills</h1>
+          <p class="lead">
+            I am currently focusing on improving my skills with technologies I have already worked with and learning new ones.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container my-5 text-white">
+    <h2 class="my-3">Web Technologies</h2>
+    <div> 
+        <h4>JavaScript</h4>
+        <div class="progress">
+            <div class="progress-bar bg-success" style="width: 80%;">Proficient</div>
+        </div>
+    </div>
+    <div> 
+        <h4>Django</h4>
+        <div class="progress">
+            <div class="progress-bar bg-success" style="width: 80%;">Proficient</div>
+        </div>
+    </div>
+    <div> 
+        <h4>CSS</h4>
+        <div class="progress">
+            <div class="progress-bar bg-primary" style="width: 60%;">Intermediate</div>
+        </div>
+    </div>
+    <div> 
+        <h4>HTML</h4>
+        <div class="progress">
+            <div class="progress-bar bg-primary" style="width: 60%;">Intermediate</div>
+        </div>
+    </div>
+    <div> 
+        <h4>React</h4>
+        <div class="progress">
+            <div class="progress-bar bg-warning" style="width: 40%;">Advanced Beginner</div>
+        </div>
+    </div>
+
+    <h2 class="mb-3 mt-5">Other Languages/Technologies</h2>
+    <div> 
+        <h4>Python</h4>
+        <div class="progress">
+            <div class="progress-bar bg-success" style="width: 80%;">Proficient</div>
+        </div>
+    </div>
+    <div> 
+        <h4>Java</h4>
+        <div class="progress">
+            <div class="progress-bar bg-success" style="width: 80%;">Proficient</div>
+        </div>
+    </div>
+    <div> 
+        <h4>C</h4>
+        <div class="progress">
+            <div class="progress-bar bg-primary" style="width: 60%;">Intermediate</div>
+        </div>
+    </div>
+    <div> 
+        <h4>C++</h4>
+        <div class="progress">
+            <div class="progress-bar bg-warning" style="width: 40%;">Advanced Beginner</div>
+        </div>
+    </div>
+    <div> 
+        <h4>Docker</h4>
+        <div class="progress">
+            <div class="progress-bar bg-danger " style="width: 20%;">Beginner</div>
+        </div>
+    </div>
+    <div> 
+        <h4>Google Cloud Play/Azure</h4>
+        <div class="progress">
+            <div class="progress-bar bg-danger" style="width: 20%;">Beginner</div>
+        </div>
+    </div>
+ </div>
+
 <script>
     $('.carousel').carousel({
       interval: 2500,
