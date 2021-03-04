@@ -1,17 +1,16 @@
-
 .card {
-    border: none;
+  border: none;
 }
 
 #project-top {
-    margin-top: 115px;
+  margin-top: 115px;
 }
 
 #project-link {
-    color: black;
+  color: black;
 }
 
 .git-project {
-    max-width: 17rem;
-    border-bottom: 2px solid #007bff;
+  max-width: 17rem;
+  border-bottom: 2px solid #007bff;
 }

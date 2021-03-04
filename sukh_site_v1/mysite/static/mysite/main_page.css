@@ -6,9 +6,7 @@
     min-height: 700px;
   }
 
-#home-main .home-inner {
-    padding-top: 450px;
-  }
+
 
 .project-intro {
     background: white;
@@ -26,6 +24,9 @@ a {
     max-width: 22rem;
     background-color: rgba(61,61,61,0.9);
     position: absolute;
-    top: 30%;
-    left: 15%;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+
 }
