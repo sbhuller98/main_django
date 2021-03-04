@@ -165,7 +165,9 @@
       <div class="card">
         <img class="card-img-top" src={% static "images/projects/basic_calc.jpg"%} alt="" />
         <div class="card-body">
-          <h4 class="card-title display-4 mt-3">Basic Calculator</h4>
+          <h4 class="card-title display-4 mt-3">Basic Calculator
+            <a class="btn btn-outline-primary btn-lg" href={% url "calculator" %}>Try Me!</a>
+          </h4>
           <div class="d-flex git-project">
             <div class="p-2 align-self-start">
               <i class="fab fa-github fa-2x"></i>
@@ -180,6 +182,7 @@
           </div>
           <p class="card-text lead mt-3">
             A basic calculator app that helped me get familiar with JavaScript.
+            
           </p>
           <a
             class="btn btn-outline-primary btn-block"

@@ -28,6 +28,8 @@ Sukhman Bhuller  (sukhmabhuller12@gmail.com)
 
 ## Version History
 
+* 2.1
+    * Updated button to navigate to calculator page
 * 2.0
     * Refactored with Bootstrap and the grid system to make responsive and mobile friendly
     * Updated navigation bar
