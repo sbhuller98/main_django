@@ -1,6 +1,6 @@
 # My Main Django Site
 
-A portfolio site to showcase my projects and skills with CSS/HTML.
+A portfolio site to showcase my projects and skills with CSS/HTML and Django.
 
 ## Description
 
@@ -28,6 +28,12 @@ Sukhman Bhuller  (sukhmabhuller12@gmail.com)
 
 ## Version History
 
+* 2.0
+    * Refactored with Bootstrap and the grid system to make responsive and mobile friendly
+    * Updated navigation bar
+    * Updated resume
+    * Updated page designs with a more flat design
+    * Updated color theme
 * 1.1
     * Added calculator item to projects page
     * Added calculator page 
@@ -66,3 +72,4 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 Inspiration, code snippets, etc.
 * [David Sale](https://semaphoreci.com/community/tutorials/dockerizing-a-python-django-web-application)
 * [Fatah Nur Alam Majid](https://semaphoreci.com/community/tutorials/dockerizing-a-python-django-web-application)
+* The entire Bootstrap Team
