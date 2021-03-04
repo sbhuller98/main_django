@@ -10,10 +10,22 @@
     padding-top: 450px;
   }
 
-#project-intro {
+.project-intro {
     background: white;
 }
 
 .carousel-block {
     background: rgba(61,61,61,0.9);
+}
+
+a {
+    color: white;
+}
+
+#contact-card {
+    max-width: 22rem;
+    background-color: rgba(61,61,61,0.9);
+    position: absolute;
+    top: 30%;
+    left: 15%;
 }

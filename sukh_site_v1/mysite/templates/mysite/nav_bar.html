@@ -27,8 +27,8 @@
   </head>
   <body>
       <div class="container">
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="#">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">
           <img class="mr-3" src={% static "images/main_page/logo_nav.png" %} width="75" height="75">Sukhman Bhuller</img>
         </a>
       <button
@@ -41,7 +41,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto mr-5">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href={% url "index" %}><h4>Welcome</h4></a>
           </li>
           <li class="nav-item">
@@ -59,7 +59,7 @@
 </div>
     
     <script
-      src="http://code.jquery.com/jquery-3.3.1.min.js"
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
       integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
       crossorigin="anonymous"
     ></script>
@@ -73,6 +73,7 @@
       integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
       crossorigin="anonymous"
     ></script>
+    
     {% block body %} {% endblock %}
 
   

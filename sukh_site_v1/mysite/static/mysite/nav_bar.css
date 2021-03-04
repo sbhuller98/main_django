@@ -1,9 +1,8 @@
-
 body {
-    background: rgb(61, 61, 61);
+  background: rgb(61, 61, 61);
 }
 
 .navbar {
-    opacity: 0.85;
-    border-bottom: 5px black solid;
+  opacity: 0.85;
+  border-bottom: 5px black solid;
 }
