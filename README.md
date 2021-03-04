@@ -28,6 +28,8 @@ Sukhman Bhuller  (sukhmabhuller12@gmail.com)
 
 ## Version History
 
+* 2.2
+    * Added dualScreenStudy script
 * 2.1
     * Updated button to navigate to calculator page
 * 2.0
