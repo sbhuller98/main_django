@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY', 'a%15g=js$_rz49z*xskv&!wb(14$mjdk%=fvva913u*hxpq&zm')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['0.0.0.0', 'maindjango-zksx6nyxnq-uw.a.run.app', '127.0.0.1', 'sukhmanbhuller.com', 'www.sukhmanbhuller.com']
 
