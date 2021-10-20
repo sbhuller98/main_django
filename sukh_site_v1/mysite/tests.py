@@ -39,6 +39,4 @@ class MySiteTestCases(TestCase):
         response = self.client.post('/calculator')
         self.assertEqual(response.status_code, 200)
     
-    def test_calculator_function(self):
-        found = resolve('/calculator')
-        self.assertEqual(found.func, views.calculator)
+
