@@ -1,4 +1,3 @@
-version: 2
 jobs:
   build:
     docker:
@@ -25,3 +24,18 @@ jobs:
       - store_artifacts:
           path: test-reports/
           destination: python_app
+  example-job:
+    docker:
+      # replace with your preferred image
+      - image: cimg/base:stable
+    steps:
+      - gcp-cloud-run/build:
+          tag: gcr.io/glassy-fort-303507/main_django 
+orbs:
+  gcp-cloud-run: circleci/gcp-cloud-run@1.0.2
+version: 2.1
+workflows:
+  build_and_deploy_to_gke_workflow:
+    jobs:
+      - build
+      - example-job
