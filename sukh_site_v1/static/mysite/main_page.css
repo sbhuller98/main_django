@@ -1,32 +1,29 @@
 #home-main {
-    background: url(../images/main_page/home_main.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    min-height: 700px;
-  }
-
-
+  background: url(../images/main_page/home_main.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+}
 
 .project-intro {
-    background: white;
+  background: white;
 }
 
 .carousel-block {
-    background: rgba(61,61,61,0.9);
+  background: rgba(61, 61, 61, 0.9);
 }
 
 a {
-    color: white;
+  color: white;
 }
 
 #contact-card {
-    max-width: 22rem;
-    background-color: rgba(61,61,61,0.9);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
-
+  max-width: 22rem;
+  background-color: rgba(61, 61, 61, 0.9);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
