@@ -28,7 +28,9 @@ Sukhman Bhuller (sukhmabhuller12@gmail.com)
 
 ## Version History
 
-- 2.2
+- 2.4
+  - Updated About Me snippet. Updated resume on file. Added a subsection to hobbies page.
+- 2.3
   - Added About Me snippet on main page, updated resume to latest version
 - 2.2
   - Added dualScreenStudy script
@@ -71,7 +73,7 @@ Sukhman Bhuller (sukhmabhuller12@gmail.com)
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE.md file for details
+This project is licensed under the MIT License - see the LICENSE.md file for details.
 
 ## Acknowledgments
 
